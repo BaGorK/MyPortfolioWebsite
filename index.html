@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Edmealem.K</a>
+        <div class="overlayOnPage hiddeClass"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">skill</a></li>
+            <li><a href="#contact-Us">Contact Us</a></li>
+            <div class="bx bx-moon" id="darkmode-icon"></div>
+        </ul>
+    </header>
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/edmealem-kassahun" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://t.me/edmealemK" target="_blank"><i class='bx bxl-telegram'></i></a>
+            <a href="https://github.com/BaGorK" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+        <div class="home-image">
+            <img src="img/my-img.png" class="my-img" alt="my home page image">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Edmealem Kassahun</h1>
+            <h2 class="imp-text">Junior Frontend Web Developer</h2>
+            <p><span class="imp-text">Hello <img src="icons/waving-hand.png" alt="hello hand icon" width="30px"> LET ME
+                    INTRODUCE MY SELF</span> <br> I'm an aspiring FullStack web developer<br> I started programming in
+                early 2022, when I joined Software Engineering department at BahirDar University. <br>
+                <br>I first started learning with C++ then working on Web Development and my favorite coding language is
+                <span class="imp-text">JavaScript</span> and I'm conversant with Java.
+            </p>
+            <a href="cv/resumePDF.pdf" download class="btn">Resume</a>
+        </div>
+    </section>
+    <!-- about me section -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="img/about-image.jpg" alt="">
+            </div>
+            <!-- some info about myself -->
+            <div class="about-text">
+                <p><span class="imp-text">Hello there Edmealem,</span>
+                    Born and raised in DebreMarkos(Amanuel), Ethiopia.</p>
+                <p>I am a 22-years-old software engineering student currently in my third year of study at BIT.
+                    Pursuing a BSC degree in software engineering BIT.</p>
+                <p>I am very interested in <span class="imp-text">Backend web Development</span> and also <span
+                        class="imp-text">Mobile app development</span>.</p>
+                <div class="heading">
+                    <span>Apart from coding, I enjoy : </span>
+                </div>
+                <!-- working on my spare time -->
+                <div class="apartFromCodingDiv">
+                    <div><img src="icons/like.png" alt="image" width="20px">
+                        <pre> Reading fictional books :</pre>
+                    </div>
+                    <div><img src="icons/like.png" alt="image" width="20px">
+                        <pre>  walking :</pre>
+                    </div>
+                    <div><img src="icons/like.png" alt="image" width="20px">
+                        <pre> playing games with my friends :</pre>
+                    </div>
+                    <div><img src="icons/like.png" alt="image" width="20px">
+                        <pre> watching movies :</pre>
+                    </div>
+                </div>
+                <!-- Biography -->
+                <div class="information">
+                    <h3 style="margin-bottom: 20px;">Biography</h3>
+                    <div class="info-box">
+                        <i class='bx bx-calendar'></i><code>Birthday :</code>
+                        <span>March 14, 2001</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxs-phone'></i><code>Phone :</code>
+                        <span>+251 908 005 801</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxs-envelope'></i><code>Email :</code>
+                        <span><a href="mailto:edmealemkassahun@gmail.com">edmealemkassahun@gmail.com</a></span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxs-flag'></i><code>City :</code>
+                        <span>DebreMarkos, Ethiopia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skill section -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <!-- Skills Content -->
+        <div class="skills-container">
+            <div class="bars">
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>88%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>JavaScript</h3>
+                    <span>65%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Java</h3>
+                    <span>50%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar Java-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>php</h3>
+                    <span>30%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar php-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Mysql</h3>
+                    <span>70%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar mysql-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="img/skill.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- contact me section -->
+    <section class="contact-Us" id="contact-Us">
+        <div class="heading">
+            <h2>Contact Us</h2>
+            <span>Connect With Me</span>
+        </div>
+        <div class="contact-form">
+            <form action="mailto:edmealemkassahun@email.com" onsubmit="reset(); return false" method="POST">
+                <input name="name" type="text" placeholder="Your Name" required>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Write Your Message Here..."
+                    required></textarea>
+                <button type="submit" class="contact-button">Send</button>
+            </form>
+        </div>
+    </section>
+    <!-- footer section -->
+    <div class="copyright">
+        <p>&copy;2023 All Right Reserved.</p>
+    </div>
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
