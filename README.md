@@ -1,6 +1,3 @@
 # MyPortfolioWebsite
-This my My portfolio website 
-Languages used :
-```
- HTML, CSS, JAVASCRIPT only
-```
+
+>This my My very first portfolio website just built with `html css javascript`.
